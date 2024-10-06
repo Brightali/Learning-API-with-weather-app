@@ -1,0 +1,38 @@
+// export const dailyWeather = async (city) => {
+//   const url = `https://weatherbit-v1-mashape.p.rapidapi.com/forecast/daily?city=${city}&units=imperial&lang=en`;
+
+//   const options = {
+//     method: "GET",
+//     headers: {
+//       "x-rapidapi-key": "2eaea189acmshe1149fbe17fcd54p14a546jsn5b57fb8b5d49",
+//       "x-rapidapi-host": "weatherbit-v1-mashape.p.rapidapi.com",
+//     },
+//   };
+
+//   try {
+//     const response = await fetch(url, options);
+//     const data = await response.json();
+//     return data;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// export const hourlyWeather = async (city) => {
+//   const url = `https://weatherbit-v1-mashape.p.rapidapi.com/forecast/hourly?city=${city}&units=imperial`;
+//   const options = {
+//     method: "GET",
+//     headers: {
+//       "x-rapidapi-key": "2eaea189acmshe1149fbe17fcd54p14a546jsn5b57fb8b5d49",
+//       "x-rapidapi-host": "weatherbit-v1-mashape.p.rapidapi.com",
+//     },
+//   };
+
+//   try {
+//     const response = await fetch(url, options);
+//     const data = await response.json();
+//     return data;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
